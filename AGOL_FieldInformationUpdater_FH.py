@@ -9,9 +9,8 @@
 # Creates a lookup table for the field alias, description and value type of fields in a service which you can update and publish the changes on AGOL
 
 # This script has 2 main functions:
-# 1) Extracts existing alias, description, and value type of fields in a feature service
-# containing one or more layers and saves as a lookup table inside a folder.
-# 2) Updates the service on ArcGIS Online using the lookup table.
+# Extracts existing alias, description, and value type of fields in a feature service containing one or more layers and saves as a lookup table inside a folder. For a feature service with multiple layers, the lookup table will save each layer as a sheet with the layer name and layer ID.
+# Updates the service on ArcGIS Online using the lookup table.
 
 # Requirements:
 # 1) You must have ArcGIS Pro installed on your computer
