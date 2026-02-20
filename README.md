@@ -1,4 +1,4 @@
-<img width="698" height="121" alt="image" src="https://github.com/user-attachments/assets/4ff03667-f4b0-402b-8d50-9dce492bb086" />
+<img width="698" height="109" alt="image" src="https://github.com/user-attachments/assets/e18d3700-729a-4b5a-a073-3ab09ec939fc" />
 
 # ArcGIS Online (AGOL) Field Information Updater
 
