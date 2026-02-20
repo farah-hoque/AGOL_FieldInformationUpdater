@@ -1,7 +1,7 @@
 # ArcGIS Online (AGOL) Field Information Updater
 
 ## Overview
-This script creates a lookup table for the field alias, description, and value type of fields in a feature service which you can update and publish the changes on ArcGIS Online (AGOL). It was inspired by Lisa Berry's Hosted Feature Service Alias Updater script:https://github.com/lisaberrygis/AliasUpdater/tree/main
+This script streamlines the process of updating a feature service's field metadata (alias/description/value type) on ArcGIS Online (AGOL) thereby eliminating the need for manual entry using AGOL's interface. For this script to run successfully, it is recommended that you already have field metadata information ready for your service. This script was inspired by Lisa Berry's Hosted Feature Service Alias Updater script:https://github.com/lisaberrygis/AliasUpdater/tree/main. 
 
 Created by: Farah Hoque, Esri Canada (2026)
 
