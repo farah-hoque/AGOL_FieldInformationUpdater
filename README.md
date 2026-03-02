@@ -1,4 +1,5 @@
-<img width="698" height="109" alt="image" src="https://github.com/user-attachments/assets/e18d3700-729a-4b5a-a073-3ab09ec939fc" />
+<img width="699" height="104" alt="image" src="https://github.com/user-attachments/assets/2b1c5af5-0c09-4e7e-9136-549ad4c2d0e2" />
+
 
 # ArcGIS Online (AGOL) Field Metadata Updater
 
