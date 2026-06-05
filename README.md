@@ -15,12 +15,18 @@ This script was created as a way to quickly update field metadata of feature ser
 Anyone who wants to make their feature service more user-friendly and AI compatible.
 
 ## What can this script do?
-The AGOL Field Metadata Updater has 2 main functions:
+The AGOL Field Metadata Updater has 2 main portions:
 1. **Extracts** existing alias, description, and value type of fields in a feature service containing one or more layers and saves as a lookup table inside a folder. For a feature service with multiple layers, the lookup table will save each layer as a sheet with the layer name and layer ID. The user then needs to fill out the lookup table (see the attached SampleLookupTable.xlsx)
 2. **Updates** the service on ArcGIS Online using the lookup table.
 
 ## Instructions
 Download the AGOL_FieldMetadataUpdater_FH.py script and run it using any python IDEs (i.e., PyCharm, Visual Studio Code) that is configured with ArcGIS Pro. To execute the script, scroll down to the def main() function and enter the parameters required.
+
+<b>Use Case #1:</b> Generate a lookup table by extracting existing field metadata (alias/description/value type) from the feature service. In this case, users can fill in the alias and description and select an appropriate value type from the list of options directly in the lookup table.
+
+<b>Use Case #2:</b> Modify your own lookup table to fit the schema of the lookup table required for this tool. For this case, download the SampleLookupTable.xlsx and modify your lookup table to have the same column headers as the sample lookup table. For the field value types, provide the corresponding 'JSON Field Value Type' value (see table below) required for updating the field value type in ArcGIS Online's backend. In the script, after entering the parameters, comment out the 'Part 1: Create lookup table' portion and just proceed to 'Part 2' updating the service on ArcGIS Online.
+
+<b>Use Case #3:</b> Re-apply field metadata after a service overwrite. For this case, after entering the parameters and pointing to an existing lookup table, comment out the 'Part 1: Create lookup table' portion and just proceed to updating the service on ArcGIS Online. 
 
 ## Requirements
 - You must have ArcGIS Pro installed on your computer
