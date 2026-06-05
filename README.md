@@ -22,11 +22,37 @@ The AGOL Field Metadata Updater has 2 main portions:
 ## Instructions
 Download the AGOL_FieldMetadataUpdater_FH.py script and run it using any python IDEs (i.e., PyCharm, Visual Studio Code) that is configured with ArcGIS Pro. To execute the script, scroll down to the def main() function and enter the parameters required.
 
-<b>Use Case #1:</b> Generate a lookup table by extracting existing field metadata (alias/description/value type) from the feature service. In this case, users can fill in the alias and description and select an appropriate value type from the list of options directly in the lookup table.
+<b>Use Case #1: Generate a lookup table by extracting existing field metadata (alias/description/value type) from the feature service. </b> In this case, users can fill in the alias and description and select an appropriate value type from the list of options directly in the lookup table.
 
-<b>Use Case #2:</b> Modify your own lookup table to fit the schema of the lookup table required for this tool. For this case, download the SampleLookupTable.xlsx and modify your lookup table to have the same column headers as the sample lookup table. For the field value types, provide the corresponding 'JSON Field Value Type' value (see table below) required for updating the field value type in ArcGIS Online's backend. In the script, after entering the parameters, comment out the 'Part 1: Create lookup table' portion and just proceed to 'Part 2' updating the service on ArcGIS Online.
+<b>Use Case #2: Modify your own lookup table to fit the schema of the lookup table required for this tool. </b> For this case, download the SampleLookupTable.xlsx and modify your lookup table to have the same column headers as the sample lookup table. For the field value types, provide the corresponding 'JSON Field Value Type' value (see table below) required for updating the field value type in ArcGIS Online's backend. In the script, after entering the parameters and pointing to your lookup table, comment out the 'Part 1: Create lookup table' portion and just proceed to 'Part 2' updating the service on ArcGIS Online.
 
-<b>Use Case #3:</b> Re-apply field metadata after a service overwrite. For this case, after entering the parameters and pointing to an existing lookup table, comment out the 'Part 1: Create lookup table' portion and just proceed to updating the service on ArcGIS Online. 
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Backend Type</th>
+      <th>Field Value Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>nameOrTitle</td><td>nameOrTitle</td></tr>
+    <tr><td>description</td><td>description</td></tr>
+    <tr><td>typeOrCategory</td><td>typeOrCategory</td></tr>
+    <tr><td>locationOrPlaceName</td><td>locationOrPlaceName</td></tr>
+    <tr><td>phoneNumber</td><td>phoneNumber</td></tr>
+    <tr><td>emailAddress</td><td>emailAddress</td></tr>
+    <tr><td>uniqueIdentifier</td><td>uniqueIdentifier</td></tr>
+    <tr><td>dateAndTime</td><td>dateAndTime</td></tr>
+    <tr><td>coordinate</td><td>coordinate</td></tr>
+    <tr><td>binary</td><td>binary</td></tr>
+    <tr><td>countOrAmount</td><td>countOrAmount</td></tr>
+    <tr><td>orderedOrRanked</td><td>orderedOrRanked</td></tr>
+    <tr><td>percentageOrRatio</td><td>percentageOrRatio</td></tr>
+    <tr><td>measurement</td><td>measurement</td></tr>
+    <tr><td>currency</td><td>currency</td></tr>
+  </tbody>
+</table>
+
+<b>Use Case #3: Re-apply field metadata after a service overwrite. </b> For this case, after entering the parameters and pointing to an existing lookup table, comment out the 'Part 1: Create lookup table' portion and just proceed to updating the service on ArcGIS Online. 
 
 ## Requirements
 - You must have ArcGIS Pro installed on your computer
