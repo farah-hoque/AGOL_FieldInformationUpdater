@@ -29,26 +29,24 @@ Download the AGOL_FieldMetadataUpdater_FH.py script and run it using any python 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
-      <th>Backend Type</th>
       <th>Field Value Type</th>
+      <th>JSON Field Value Type</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>nameOrTitle</td><td>nameOrTitle</td></tr>
-    <tr><td>description</td><td>description</td></tr>
-    <tr><td>typeOrCategory</td><td>typeOrCategory</td></tr>
-    <tr><td>locationOrPlaceName</td><td>locationOrPlaceName</td></tr>
-    <tr><td>phoneNumber</td><td>phoneNumber</td></tr>
-    <tr><td>emailAddress</td><td>emailAddress</td></tr>
-    <tr><td>uniqueIdentifier</td><td>uniqueIdentifier</td></tr>
-    <tr><td>dateAndTime</td><td>dateAndTime</td></tr>
-    <tr><td>coordinate</td><td>coordinate</td></tr>
-    <tr><td>binary</td><td>binary</td></tr>
-    <tr><td>countOrAmount</td><td>countOrAmount</td></tr>
-    <tr><td>orderedOrRanked</td><td>orderedOrRanked</td></tr>
-    <tr><td>percentageOrRatio</td><td>percentageOrRatio</td></tr>
-    <tr><td>measurement</td><td>measurement</td></tr>
-    <tr><td>currency</td><td>currency</td></tr>
+    <tr><td>Name or Title</td><td>nameOrTitle</td></tr>
+    <tr><td>Description</td><td>description</td></tr>
+    <tr><td>Type or Category</td><td>typeOrCategory</td></tr>
+    <tr><td>Count or Amount</td><td>countOrAmount</td></tr>
+    <tr><td>Percentage or Ratio</td><td>percentageOrRatio</td></tr>
+    <tr><td>Measurement</td><td>measurement</td></tr>
+    <tr><td>Currency</td><td>currency</td></tr>
+    <tr><td>Unique Identifier</td><td>uniqueIdentifier</td></tr>
+    <tr><td>Ordered or Ranked</td><td>orderedOrRanked</td></tr>
+    <tr><td>Binary</td><td>binary</td></tr>
+    <tr><td>Location or Place Name</td><td>locationOrPlaceName</td></tr>
+    <tr><td>Coordinate</td><td>coordinate</td></tr>
+    <tr><td>Date and Time</td><td>dateAndTime</td></tr>
   </tbody>
 </table>
 
